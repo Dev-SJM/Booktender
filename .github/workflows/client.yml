@@ -17,5 +17,4 @@ jobs:
           AWS_EC2_METADATA_DISABLED: true
         run: |
           zip -r site.zip . 
-          aws s3 cp site.zip s3://your-bucket-name/site.zip --region ap-northeast-2
-        working-directory: ./booktender
+          aws s3 cp site.zip s3://booktender/site.zip --region ap-northeast-2
