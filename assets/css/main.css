@@ -252,7 +252,7 @@ h6 {
   }
 
   .scrolled .navmenu a {
-    color: var(--nav-hover-color);
+    color: var(--accent-color);
     padding: 18px 15px;
     font-size: 15px;
     font-family: var(--nav-font);
@@ -285,7 +285,7 @@ h6 {
   .scrolled .navmenu li:hover>a,
   .scrolled .navmenu .active,
   .scrolled .navmenu .active:focus {
-    color: var(--background-color);
+    color: var(--surface-color);
   }
 
   .navmenu .dropdown ul {
